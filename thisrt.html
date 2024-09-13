@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sepatu.html">sepatu</a></li>
+            <li><a href="thisrt.html">thisrt</a></li>
+            <li><a href="celana.html">celana</a></li>
+            <li><a href="search.html">Pencarian</a></li>
+            <li><a href="cart.html">Keranjang</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Fashion</h2>
+        <section class="product-grid">
+            <div class="product">
+                <img src="gambar/baju stussy.png" alt="Fashion Product 1">
+                <h3>thisrt stussy black</h3>
+                <p>Rp.500.000</p>
+                <button onclick="addToCart('Fashion 1', 500000)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="gambar/baju.png" alt="Fashion Product 2">
+                <h3>thisrt stussy white</h3>
+                <p>Rp.500.000</p>
+                <button onclick="addToCart('Fashion 2', 500000)">Tambah ke Keranjang</button>
+            </div>
+            <!-- Tambahkan produk Fashion lainnya di sini -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

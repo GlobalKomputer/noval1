@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>celana - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sepatu.html">sepatu</a></li>
+            <li><a href="thisrt.html">thisrt</a></li>
+            <li><a href="celana.html">celana</a></li>
+            <li><a href="search.html">Pencarian</a></li>
+            <li><a href="cart.html">Keranjang</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>celana</h2>
+        <section class="product-grid">
+            <div class="product">
+                <img src="gambar/celana.png" alt="celana Product 1">
+                <h3>celana panjang </h3>
+                <p>Rp.900.000</p>
+                <button onclick="addToCart('celana 1', 900000)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="gambar/image.png" alt="Beauty Product 2">
+                <h3>denim </h3>
+                <p>Rp.900.000</p>
+                <button onclick="addToCart('celana 2', 900000)">Tambah ke Keranjang</button>
+            </div>
+            <!-- Tambahkan produk Kecantikan lainnya di sini -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
